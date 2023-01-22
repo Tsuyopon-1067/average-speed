@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:average_speed"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <TabControl x:Name="MyTabControl"
+                    Margin="0">
+        <TabItem Header="AAA">
+        </TabItem>
+        <TabItem Header="BBB">
+        </TabItem>
+    </TabControl>
 </Window>
